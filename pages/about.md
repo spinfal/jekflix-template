@@ -1,17 +1,24 @@
 ---
 layout: page
+menu: true
+date: 2022-05-13 13:43:35
 title: About
-description: Some description.
 permalink: /about/
+description: Information about Spin, aka Spinfal
+tags:
+  - spin
+  - spinfal
+  - coder
+  - programmer
+  - code
+  - software
+  - engineer
+  - blog
+  - reading
+  - about
 ---
-
-<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thiago Rossener" width="200">
+<img class="img-rounded" src="/assets/img/uploads/spin.jpg" alt="Dominic Segura" width="200">
 
 # About
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I am a software engineer who loves gaming, music, and working on random projects. I've been working with computers for several years now, but I still have much to learn when it comes to developing websites and services. Currently, I'm not employed anywhere but that will most likely change in the coming years.
