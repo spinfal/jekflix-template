@@ -17,6 +17,7 @@ tags:
   - reading
   - about
 ---
+
 <img class="img-rounded" src="/assets/img/uploads/spin.jpg" alt="Dominic Segura" width="200">
 
 # About
