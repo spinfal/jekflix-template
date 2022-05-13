@@ -1,13 +1,19 @@
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: Spin's Blog
+title: Splog | A place for Spin to blog about anything.
+description: A collection of blogs that Spin has written over time. 
 tags:
   - blog
   - template
   - jekyll
   - theme
   - netlify
+  - spinfal
+  - spin
+  - coding
+  - code
+  - programming
+  - software engineering
+  - software
 show_hero: true
 menu:
   - title: Home
@@ -18,9 +24,9 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-email: youremail@test.com
+email: contact@spin.rip
 # See: https://disqus.com/
-disqus_username: disqus_username
+disqus_username: spinfal
 # Contact Form Setting
 # See: https://formspree.io/
 formspree_form_id: formspree_form_id
