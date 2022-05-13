@@ -30,7 +30,7 @@ email: contact@spin.rip
 disqus_username: spinfal
 # Contact Form Setting
 # See: https://formspree.io/
-formspree_form_id: formspree_form_id
+formspree_form_id: mwkyanlv
 
 
 # Social Media Settings
@@ -64,7 +64,7 @@ collections:
   authors:
     output: true
 paginate_path: "/page/:num/"
-show_get_theme_btn: true
+show_get_theme_btn: false
 use_logo: false
 
 # Content paginator
