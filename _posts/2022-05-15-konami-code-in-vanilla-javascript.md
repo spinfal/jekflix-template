@@ -43,7 +43,7 @@ const keys = {
 
 ### Document keyup event listener
 
-After defining the keys, I created an event listener which would listen for "`keyup`" events on the document. This allows us to check if the correct keys were pressed or not.// konamiCode function will be explained in the next section
+After defining the keys, I created an event listener which would listen for "`keyup`" events on the document. This allows us to check if the correct keys were pressed or not.
 
 ```javascript
 document.addEventListener("keyup", (e) => konamiCode(e)); 
