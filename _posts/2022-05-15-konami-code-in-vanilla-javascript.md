@@ -22,9 +22,10 @@ tags:
 author: spin
 paginate: false
 ---
+
 ## The Konami Code
 
-Long ago when an NES game called [Gradius](https://www.mobygames.com/game/nes/gradius) was released, it came with a cheat code that would be known to many as the *Konami Code.* This code was implemented by the developer to help make the game easier, it would provide many different power-ups. Now, [many other games](https://www.riddlester.co/games-that-support-konami-code/) support the Konami Code and it has become another pop-culture reference that even [websites have begun to use](https://nick.boldison.com/websites/konami-code-sites-that-use-the-konami-code/).
+Long ago when an NES game called [Gradius](https://www.mobygames.com/game/nes/gradius) was released, it came with a cheat code that would be known to many as the _Konami Code._ This code was implemented by the developer to help make the game easier, it would provide many different power-ups. Now, [many other games](https://www.riddlester.co/games-that-support-konami-code/) support the Konami Code and it has become another pop-culture reference that even [websites have begun to use](https://nick.boldison.com/websites/konami-code-sites-that-use-the-konami-code/).
 
 ## Developing the Konami Code in JS
 
@@ -36,8 +37,19 @@ First, I began by defining the Konami Code keys `(up up down down left right lef
 
 ```javascript
 const keys = {
-    index: 0,
-    konami: ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight", "b", "a"]
+  index: 0,
+  konami: [
+    "ArrowUp",
+    "ArrowUp",
+    "ArrowDown",
+    "ArrowDown",
+    "ArrowLeft",
+    "ArrowRight",
+    "ArrowLeft",
+    "ArrowRight",
+    "b",
+    "a",
+  ],
 };
 ```
 
@@ -46,7 +58,7 @@ const keys = {
 After defining the keys, I created an event listener which would listen for "`keyup`" events on the document. This allows us to check if the correct keys were pressed or not.// konamiCode function will be explained in the next section
 
 ```javascript
-document.addEventListener("keyup", (e) => konamiCode(e)); 
+document.addEventListener("keyup", (e) => konamiCode(e));
 // konamiCode function will be explained in the next section
 ```
 
@@ -56,16 +68,16 @@ Now that we have the keys defined and the document event listener created, we ca
 
 ```javascript
 function konamiCode(e) {
-    if (e.isTrusted) {
-        if (keys.konami[keys.index] === e.key) {
-            if (keys.index == 9) {
-                keys.index = 0;
-                return alert("Konami!"); // this line can be replaced to run whatever code you need it to run
-            } else {
-                keys.index++;
-            }
-        }
+  if (e.isTrusted) {
+    if (keys.konami[keys.index] === e.key) {
+      if (keys.index == 9) {
+        keys.index = 0;
+        return alert("Konami!"); // this line can be replaced to run whatever code you need it to run
+      } else {
+        keys.index++;
+      }
     }
+  }
 }
 ```
 
@@ -84,23 +96,34 @@ Finally, we can put the JS code altogether and see our result
 "use strict";
 
 const keys = {
-    index: 0,
-    konami: ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight", "b", "a"]
+  index: 0,
+  konami: [
+    "ArrowUp",
+    "ArrowUp",
+    "ArrowDown",
+    "ArrowDown",
+    "ArrowLeft",
+    "ArrowRight",
+    "ArrowLeft",
+    "ArrowRight",
+    "b",
+    "a",
+  ],
 };
 
 document.addEventListener("keyup", (e) => konamiCode(e));
 
 function konamiCode(e) {
-    if (e.isTrusted) {
-        if (keys.konami[keys.index] === e.key) {
-            if (keys.index == 9) {
-                keys.index = 0;
-                return alert("Konami!");
-            } else {
-                keys.index++;
-            }
-        }
+  if (e.isTrusted) {
+    if (keys.konami[keys.index] === e.key) {
+      if (keys.index == 9) {
+        keys.index = 0;
+        return alert("Konami!");
+      } else {
+        keys.index++;
+      }
     }
+  }
 }
 ```
 
