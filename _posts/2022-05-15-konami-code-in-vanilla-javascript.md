@@ -5,7 +5,7 @@ title: "Konami Code in vanilla JavaScript "
 subtitle: Up, Up, Down, Down, Left, Right, Left, Right, B, A
 description: Making a Konami code easter egg in plain, vanilla JavaScript. No
   external libraries are needed.
-image: https://cdn.discordapp.com/attachments/788198099067076638/975519387308142653/unknown.png
+image: https://media.discordapp.net/attachments/788198099067076638/975519387308142653/unknown.png
 optimized_image: https://media.discordapp.net/attachments/788198099067076638/975519387308142653/unknown.png
 category: "{{slug}}"
 tags:
